@@ -1,0 +1,22 @@
+[
+    {"login": "login0", "about": "Писатель", "age": "18", "city": "Ростов", "gravatar": ""},
+    {"login": "login1", "about": "Певец", "age": "23", "city": "Москва", "gravatar": ""},
+    {"login": "login2", "about": "Журналис", "age": "33", "city": "Кирова", "gravatar": ""},
+    {"login": "login3", "about": "Актер", "age": "45", "city": "Ижевск", "gravatar": ""},
+    {"login": "login4", "about": "Шахтер", "age": "78", "city": "Казань", "gravatar": ""},
+    {"login": "login5", "about": "Чтец", "age": "65", "city": "Марий Эл", "gravatar": ""},
+    {"login": "login6", "about": "Жнец", "age": "74", "city": "Тюмень", "gravatar": ""},
+    {"login": "login7", "about": "Музыкант", "age": "25", "city": "Томск", "gravatar": ""},
+    {"login": "login8", "about": "Поэт", "age": "6", "city": "С.-Петербург", "gravatar": ""},
+    {"login": "login9", "about": "Свободен", "age": "24", "city": "Иваново", "gravatar": ""},
+    {"login": "login10", "about": "Студент", "age": "35", "city": "Омск", "gravatar": ""},
+    {"login": "login11", "about": "Гадаю по руке", "age": "26", "city": "Нью-Йорк", "gravatar": ""},
+    {"login": "login12", "about": "Танцую", "age": "24", "city": "Лондон", "gravatar": ""},
+    {"login": "login13", "about": "-", "age": "14", "city": "Париж", "gravatar": ""},
+    {"login": "login14", "about": "Просто живу", "age": "42", "city": "Белгород", "gravatar": ""},
+    {"login": "login15", "about": "!", "age": "33", "city": "Москва", "gravatar": ""},
+    {"login": "login16", "about": "Избавлюсь от кольца", "age": "102", "city": "Бэг-Энд", "gravatar": ""},
+    {"login": "login17", "about": "Мир спасаю", "age": "18", "city": "Стена", "gravatar": ""},
+    {"login": "login18", "about": "Пою", "age": "50", "city": "Москва", "gravatar": ""},
+    {"login": "login19", "about": "Тоже Пою", "age": "60", "city": "Москва", "gravatar": ""}
+]
