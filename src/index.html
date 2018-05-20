@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<h1>Hello World</h1>
-<script src="dist/bundle.js" type="text/javascript"></script>
+<body ng-app="messangerApp" ng-controller="MainController">
+<div ui-view>
+        <h1>Hello World {{Caption}}</h1>
+        <!--<pre>{{this.accounts | json}}</pre>-->
+</div>
+<script src="/static/bundle.js" type="text/javascript"></script>
 </body>
 </html>

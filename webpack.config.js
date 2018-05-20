@@ -1,11 +1,13 @@
-
-var webpack = require('webpack')
+const path = require('path');
+const webpack = require('webpack')
 
 module.exports = {
     devtool: "source-map",
     entry: './src/app/app.module.js',
     output: {
-        filename: 'bundle.js'
+        path: path.join(__dirname, 'dist'),
+        filename: 'bundle.js',
+        publicPath: '/static/'
     },
     devServer: {
         port: 3000, // configuring port for localserver

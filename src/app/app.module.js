@@ -1,5 +1,24 @@
-import { User } from './shared/services/UserService' // using import of webpack
+import angular from 'angular';
 
-let user = new User();
+class MainController{
+    constructor($scope, $http/*, $state*/){
+        //this.$state= $state;
+        this.scope=$scope;
+        this.http=$http;
+        this.scope.Caption = "Hello, man!";
+        this.init();
+    }
+    init(){
+        this.http.get("app/assets/json/accounts.json").then(data => alert(data), error => alert(error));
+    }
+}
 
-console.log(user.getUsers());
+MainController.$inject=['$scope'/*,  '$state'*/];
+
+// export {MainController}
+
+angular.module('messangerApp', []).
+controller('MainController', MainController).run(function($http){
+    $http.get("app/assets/json/accounts.json").then(data => alert(data), error => alert(error));
+});
+
