@@ -1,0 +1,36 @@
+{
+  "name": "angularjs-messanger",
+  "version": "1.0.0",
+  "description": "WebTouch test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenkavmir/angularjs_messanger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenkavmir/angularjs_messanger/issues"
+  },
+  "homepage": "https://github.com/elenkavmir/angularjs_messanger#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.18",
+    "angular": "^1.6.10",
+    "jquery": "^3.3.1"
+  }
+}
